@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 1500px;
+}
+
+.container1 {
+  width: 100%;
+  height: 50%;
+  background: url("flower1.png") top left/150px 150px no-repeat,
+    url("flower2.png") bottom left/150px 150px no-repeat,
+    url("flower1.png") bottom right/150px 150px no-repeat,
+    url("flower2.png") top right/150px 150px no-repeat,
+    url("flower1.png") 30% 50%/150px 150px no-repeat,
+    url("flower1.png") 70% 50%/150px 150px no-repeat,
+    url("flower2.png") 50% 10%/150px 150px no-repeat,
+    url("flower2.png") 50% 90%/150px 150px no-repeat,
+    url("flowers.png") center/300px 300px no-repeat,
+    url("grass.jpg") center/cover no-repeat;
+}
+
+.container2 {
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+      45deg,
+      rgba(2, 0, 36, 0.9) 0%,
+      rgba(9, 9, 121, 0.5) 20%,
+      rgba(0, 212, 255, 0.2) 100%
+    ),
+    url("background.jpg") center/cover no-repeat;
+}
